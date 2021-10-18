@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My first Bulma website</title>
+    <link rel="stylesheet" href="css/main.css" />
+
+
+  </head>
+  <body class="has-navbar-fixed-top">
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-4"> Capstone Group C </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#about" style= > About </a>
+          <a class="navbar-item" href="#members"> Members </a>
+          <a class="navbar-item" href="#Techstack"> Tech Stack </a>
+
+        </div>
+      </div>
+    </nav>
+    <section class="hero is-large is-primary " style= "background-image: url(pexels-cottonbro-6209356.jpg); background-size:cover " >
+      <div class="hero-body">
+        <div class="container has-text-centered is-capitalized">
+          <p class="title is-size-1 is-uppercase has-text-weight-bold	">Capstone Campus Life (Tentative name)</p>
+          <p class="subtitle ">A capstone project for student organizations</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero is-large is-info" id="about">
+      <div class="hero-body">
+        <div class="columns">
+          <div class="column">
+            <h1 class="is-size-1 title has-text-centered has-text-weight-bold	">
+              What is our capstone project about?
+            </h1>
+          </div>
+          <div class="column">
+            <p class="subtitle has-text-left is-size-4">
+              Currently, there is no area where students can learn from all
+              these teams and organizations in one single space, which makes it
+              harder for the students to join them. The lack of exposure makes
+              it harder for the organizations to recruit new qualified members.
+              There is a need for a place where students can learn about
+              organizations, explore their activities and see if they match
+              their interests. At the same time, there is a need for a place
+              where organizations can showcase their work, present their
+              achievements and recruit new members easily.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section class="hero is-success is-halfheight">
+        <div class="hero-body">
+          <div class="columns">
+            <div class="column">
+              <h1 class="is-size-1 title has-text-centered">
+                Our solution to solve it?
+              </h1>
+            </div>
+            <div class="column">
+              <p class="subtitle has-text-left is-size-4">
+                Our solution is to create a web application that serves as a
+                catalog for student organizations to present their work to
+                students who are in search of a student organization to join and
+                want to see the options available in a singular searching space.
+                These organizations will help students explore different
+                interests in their field of study and inspire them to pursue
+                those interests in their future careers. Lastly, it's important
+                to note that this web-application will not function as a Social
+                Media platform but instead a listing where students and
+                professors can list their organizations for general knowledge of
+                the users utilizing the web-application as well as the features
+                mentioned before.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="hero is-medium is-info" id="Techstack" style="background-color: #081229;">
+      <div class="hero-body">
+        <h1 class="title is-1 has-text-centered has-text-weight-bold	" style="margin-bottom: 10rem;" >Tech Stack</h1>
+        <div class="columns has-text-centered  " style= "margin-bottom: 5rem;">
+        <div class="column">
+          <div class="card-image has-text-centered">
+            <figure class="image  is-128x128 is-inline-block">
+              <img class="is-rounded" src="reactlogo.png" />
+            </figure>
+          </div>
+          <h1 class="is-size-1 title has-text-centered">
+            React
+          </h1>
+          <h2 class="is-size-4 subtitle">
+            Front-End
+          </h2>
+          <h3 class="is-size-6 subtitle">
+            Great for building interfaces and reusing UI components
+          </h3>
+        </div>
+        <div class="column">
+          <div class="card-image has-text-centered">
+            <figure class="image is-128x128 is-inline-block">
+              <img class="is-rounded" src="python.logo.png" />
+            </figure>
+          </div>
+          <h1 class="is-size-2 title has-text-centered">
+            Python
+          </h1>
+          <h2 class="is-size-4 subtitle">
+            Back-End
+          </h2>
+          <h3 class="is-size-6 subtitle">
+            Utilized to create our Back-End
+          </h3>
+        </div>
+        <div class="column">
+          <div class="card-image has-text-centered">
+            <figure class="image is-128x128 is-inline-block">
+              <img class="is-rounded" src="jsLogo.png" />
+            </figure>
+          </div>
+          <h1 class="is-size-2 title has-text-centered">
+            JavaScript
+          </h1>
+          <h2 class="is-size-4 subtitle">
+            Front-End
+          </h2>
+          <h3 class="is-size-6 subtitle">
+            Allows us to create functionality in the Front-End
+          </h3>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="section hero is-medium">
+      <div class="container" id="members">
+        <h1 class="title is-1 has-text-centered" style= "margin-bottom: 7rem ">Team members</h1>
+        <div class="columns has-text-centered">
+          <div class="column">
+            <div class="card-image has-text-centered">
+              <img src="edison.jpg" style ="border-radius: 50%; width: 125px; height: 125px;">
+            </div>
+            <h1 class="is-size-2 title has-text-centered">
+              Edison Zapata Velez
+            </h1>
+            <h2 class="is-size-5 subtitle" style= "margin-bottom: 5rem;">
+              UPRM student in his last semester
+            </h2>
+            <h2 class="is-size-4 subtitle">
+              Contact Email: edison.zapata@upr.edu
+            </h2>
+            <p>Mainly interested in front-end designing and implementation</p>
+          </div>
+          <div class="column">
+            <div class="card-image has-text-centered">
+              <figure class="image is-96x96 is-inline-block">
+                <img class="is-rounded" src="https://unsplash.it/64" />
+              </figure>
+            </div>
+            <h1 class="is-size-2 title has-text-centered">
+              Kathiana Diaz Mendoza
+            </h1>
+            <h2 class="is-size-5 subtitle" style= "margin-bottom: 5rem;">
+              UPRM student in his last semester
+            </h2>
+            <h2 class="is-size-4 subtitle">
+              Contact Email: kathiana.diaz@upr.edu
+            </h2>
+            <p>Mainly interested in front-end designing and implementation</p>
+          </div>
+          <div class="column">
+            <div class="card-image has-text-centered">
+              <figure class="image is-96x96 is-inline-block">
+                <img class="is-rounded" src="https://unsplash.it/64" />
+              </figure>
+            </div>
+            <h1 class="is-size-2 title has-text-centered">Samuel Diaz Bidot</h1>
+            <h2 class="is-size-5 subtitle" style= "margin-bottom: 5rem;">
+              UPRM student in his last semester
+            </h2>
+            <h2 class="is-size-4 subtitle">
+              Contact Email: samuel.diaz9@upr.edu
+            </h2>
+            <p>Mainly interested in front-end designing and implementation</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section hero is-medium is-info">
+      <div class="container ">
+        <h1 class="is-size-2 title has-text-centered is-capitalized  has-text-weight-bold	">Project github page</h1>
+        <div class="columns has-text-centered">
+          <div class="column">
+            <h2 class="is-size-6 subtitle" style="margin-bottom: 4rem;">Click on logo to redirect there
+            </h2>
+            <div class="card-image has-text-centered">
+              
+              <figure class="image is-96x96 is-inline-block">
+               <a href= "https://github.com/kathianadiaz/capstone_inso_2021"><img class="is-rounded" src="github.png" /></a> 
+              </figure>
+            </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer has-text-centered">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-8-desktop is-offset-2-desktop">
+            <p>
+              <strong class="has-text-weight-semibold">
+                <a href="https://www.npmjs.com/package/bulma-start"
+                  >bulma-start@0.0.4</a
+                >
+              </strong>
+            </p>
+            <p>
+              <small>
+                Source code licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+              </small>
+            </p>
+            <p style="margin-top: 1rem">
+              <a href="http://bulma.io">
+                <img
+                  src="made-with-bulma.png"
+                  alt="Made with Bulma"
+                  width="128"
+                  height="24"
+                />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="lib/main.js"></script>
+  </body>
+</html>
